@@ -1,0 +1,91 @@
+/*----------------------------------------------------
+
+Template Name   : 
+Description     :
+Author          :
+Version         :
+
+------------------------------------------------------
+    ==============
+     CSS INDEX
+    ==============
+    1. Theme default css
+    2. header area
+    3. top area
+
+-----------------------------------------------------*/
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/*---- Theme default css
+============================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.section-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    text-transform: capitalize;
+}
+/*---- header area
+============================================= */
+.header-area {
+    background-color: #562EFF;
+}
+#header-logo {
+    width: 40px;
+    height: 51px;
+}
+.navbar-nav {
+    align-items: center;
+}
+
+/*---- top area
+============================================= */
+.top-area .player img{
+    width: 56px;
+    height: 56px;
+}
+.top-area .player p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+
+
