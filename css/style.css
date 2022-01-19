@@ -12,6 +12,7 @@ Version         :
     1. Theme default css
     2. header area
     3. top area
+    4. course area
 
 -----------------------------------------------------*/
 /* font import */
@@ -28,7 +29,10 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
 body {
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
@@ -56,7 +60,7 @@ h6 {
 }
 .section-title {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #562EFF;
     text-transform: capitalize;
 }
@@ -66,26 +70,122 @@ h6 {
     background-color: #562EFF;
 }
 #header-logo {
-    width: 40px;
-    height: 51px;
+    width: 4rem;
+    height: 5.1rem;
 }
 .navbar-nav {
     align-items: center;
+}
+.nav-link {
+    font-size: 1.6rem;
+}
+.navbar-brand span {
+    font-size: 2rem;
+}
+.navbar-toggler-icon {
+    width: 2.8em;
+    height: 2.8em;
 }
 
 /*---- top area
 ============================================= */
 .top-area .player img{
-    width: 56px;
-    height: 56px;
+    width: 5.6rem;
+    height: 5.6rem;
 }
 .top-area .player p {
     color: #000000;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: capitalize;
 }
+hr:not([size]) {
+    height: 2px;
+    margin-top: 19px;
+}
+.top-blog img {
+    width: 17.7rem;
+}
+.top-blog .title h3 {
+    font-size: 2.3rem;
+    line-height: 3.4rem;
+    color: #000000;
+    font-weight: 500;
+}
+.top-blog .title p {
+    color: #562EFF;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+}
+.top-blog .title p span{
+    color: #9F9F9F;
+}
+/*---- course area
+============================================= */
+.course-area .card-title {
+    font-size: 2rem;
+    color: #1E1E1E;
+    line-height: 2.3rem;
+    font-weight: 500;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+.course-area .card-text {
+    color: #ED6B4F;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-transform: capitalize;
+}
+.course-area .filled {
+    color: #FFC014;
+    font-size: 1.3rem;
+}
+.course-area .empty {
+    color: #AEAEAE;
+    font-size: 1.3rem;
+}
+.course-area .card-star span {
+    color: #A2A2A2;
+    font-size: 1.4rem;
+}
+.course-area .time {
+    background-color: #FFE4E8;
+    padding: .5rem 1.5rem;
+    font-weight: 500;
+    border-radius: 2rem;
+    color: #FF4A60;
+    font-size: 1.4rem;
+}
+.course-area .card {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.course-area .col {
+    border-radius: 1.5rem;
+}
+.card-rating-section {
+    padding-bottom: 2rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+ }
 
 
-
+ /* Medium devices  */
+@media (max-width: 992px) { 
+    html {
+        font-size: 55.5%;
+    }
+    .top-blog .title h3 {
+        font-size: 2rem;
+    }
+    .card-rating-section {
+        padding-bottom: 0rem;
+    }
+ }
 
